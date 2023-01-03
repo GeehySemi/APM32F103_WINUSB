@@ -1,0 +1,16 @@
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\USB_Device_Lib\Driver\src\drv_usb_device.c
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\USB_Device_Lib\Driver\inc\drv_usb_device.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\Device\Geehy\APM32F10x\Include\apm32f10x.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\CMSIS\Include\core_cm3.h
+.\objects\drv_usb_device.o: C:\MySofaware\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\CMSIS\Include\cmsis_version.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\Device\Geehy\APM32F10x\Include\system_apm32f10x.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\Device\Geehy\APM32F10x\Include\apm32f10x.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\APM32F10x_StdPeriphDriver\inc\apm32f10x_pmu.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h
+.\objects\drv_usb_device.o: ..\..\..\..\..\Libraries\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h
+.\objects\drv_usb_device.o: ..\..\Include\usb_config.h

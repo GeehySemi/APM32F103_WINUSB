@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: CZ Chen, chenccz, LIC=8VRJ7-EELUK-Z9VG9-4BYRS-MQ362-ZY0LQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  C:\MySofaware\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\geehy\Desktop\APM32_WINUSB\APM32F10x_SDK_V1.8 for CDC WinUSB(20221209) - ¸±±¾\APM32F10x_SDK_V1.8 for CDC WinUSB\Examples\USB\USB_CDC_VirtualCOMPort\Project\MDK\USB_CDC_VirtualCOMPort.uvprojx
+Project File Date:  12/12/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\MySofaware\MDK\ARM\ARMCC\Bin'
+Build target 'APM32F103'
+compiling usbd_cdc.c...
+..\..\Source\usbd_cdc.c(125): warning:  #223-D: function "strlen" declared implicitly
+          USBD_TxData(USBD_EP_1, (uint8_t *)str, strlen(str));
+..\..\Source\usbd_cdc.c(119): warning:  #550-D: variable "dataCnt"  was set but never used
+        uint32_t dataCnt;
+..\..\Source\usbd_cdc.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=6556 RO-data=740 RW-data=180 ZI-data=1460  
+".\Objects\USB_CDC_VirtualCOMPort.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Geehy
+                https://www.geehy.com/uploads/tool/Geehy.APM32F1xx_DFP.1.0.8.pack
+                Geehy.APM32F1xx_DFP.1.0.8
+                Geehy Semiconductor APM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_APM32F103
+  C:\MySofaware\MDK\Packs\Geehy\APM32F1xx_DFP\1.0.8\Device\Device\Geehy\APM32F10x\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
